@@ -1,0 +1,1 @@
+while task.wait()do for a,b in pairs(game.Workspace:FindFirstChild("activePlayers"):GetDescendants())do if b:IsA("BasePart")then game:GetService("Workspace").ServerStuff.applyGore:FireServer("hangerPopup",b,nil)end end end
